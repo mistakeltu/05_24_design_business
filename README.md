@@ -4,7 +4,7 @@
 
 # Business design
 
-_website design project_
+
 
 <br>
 
@@ -12,7 +12,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://mistakeltu.github.io/
+Site published at: https://mistakeltu.github.io/05_24_design_business/
 
 Tutorial: [Business design](https://dribbble.com/shots/17978203-Online-Business-Website-Design/attachments/13160552?mode=media)
 ## 🎯 Project features/goals

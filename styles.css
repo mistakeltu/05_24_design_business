@@ -12,6 +12,10 @@ body {
     background-color: var(--bg-color);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
 .bg {
     width: 1250px;
@@ -30,11 +34,6 @@ body {
     align-items: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .menu {
     display: flex;
     gap: 40px;
@@ -46,13 +45,13 @@ body {
     gap: 40px;
 }
 
-a {
+.nav {
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
 
-a:hover {
+.nav:hover {
     border-bottom: 1px solid var(--main-color);
 }
 
@@ -66,16 +65,10 @@ a:hover {
 .content {
     align-items: center;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 1250px;
     height: 300px;
     text-align: center;
-}
-
-.footer {
-    width: 1250px;
-    height: 300px;
-    background-color: black;
 }
 
 input {
@@ -101,6 +94,31 @@ input {
     width: 70px;
 }
 
-.textarea > .submit {
+.submit > a {
+    text-decoration: none;
     color: white;
+}
+
+.submit:hover {
+    box-shadow: -5px 5px 10px #DADFF8;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.main-ft {
+    margin-top: 50px;
+    width: 350px;
+}
+.apacia {
+    margin-top: 470px;
+    height: 200px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background-color: #346DF2;
 }

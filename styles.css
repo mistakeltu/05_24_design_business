@@ -4,12 +4,20 @@
 }
 
 :root {
-    --bg-color: #6D4EE7;
+    --bg-color: #EFF0F5;
     --main-color: #335AFF;
+    --btn-shadow: #DADFF8;
 }
 
 body {
     background-color: var(--bg-color);
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container {
@@ -18,19 +26,9 @@ body {
 }
 
 .bg {
-    width: 1250px;
     margin-top: 50px;
-    margin-left: calc(50% - 625px);
-    background-color: #EFF0F5;
-    border-radius: 5px;
+    background-color: var(--bg-color)
 
-}
-
-.header {
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .menu {
@@ -65,7 +63,6 @@ body {
     align-items: center;
     gap: 20px;
     margin-top: 70px;
-    width: 1250px;
     text-align: center;
 }
 
@@ -75,7 +72,7 @@ input {
    width: 280px;
    border: none;
    outline: none;
-   box-shadow: -5px 5px 10px #DADFF8; 
+   box-shadow: -5px 5px 10px var(--btn-shadow);
 }
 
 .textarea {
@@ -98,7 +95,7 @@ input {
 }
 
 .submit:hover {
-    box-shadow: -5px 5px 10px #DADFF8;
+    box-shadow: -5px 5px 10px var(--btn-shadow);
 }
 
 h1 {
@@ -114,8 +111,14 @@ p {
     width: 350px;
 }
 .apacia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 200px;
-    width: 100%;
-    border-radius: 0 0 5px 5px;
-    background-color: var(--main-color);
+    background-color: #356CF2;
+}
+
+.apacia > .partners {
+    margin: 0 80px;
+    height: 50px;
 }
